@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <h3>1. Get Real Type</h3>
+    Create a function that takes a value as an argument and returns the type of this value. You should get
+the real type of a value (JavaScript typeof doesn't return the real object type of values and you need to
+fix that). <br>
+Examples<br>
+realType (1) ➞ "number"<br>
+realType("a") ➞ "string"<br>
+realType(true) ➞ "boolean"<br>
+realType ([]) ➞ "array"<br>
+realType(null) ➞ "null"<br>
+
+
+    <h3>2. Numbers in Strings</h3>
+    Create a function that takes an array of strings and returns an array with only the strings that have
+numbers in them. If there are no strings containing numbers, return an empty array. <br>
+Examples<br>
+numInStr (["1a", "a", "2b", "b"]) ➞ ["1a", "2b"]<br>
+numInStr (["abc", "abc10"]) ➞ ["abc10"]<br>
+numInStr (["abc", "ab10c", "a10bc", "bcd"]) ➞ ["ab10c", "a10bc"]<br>
+numInStr (["this is a test", "test1"]) ➞ ["test1"]<br>
+    <script src="hard.js"></script>
+  </body>
+</html>
